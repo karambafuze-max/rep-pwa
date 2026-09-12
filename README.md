@@ -1,21 +1,5 @@
-# REP v4
+# REP v6
 
-Личная PWA для тренировок.
+Safari-safe build. The app renders immediately from an embedded core exercise list and then upgrades to the full RepDB catalog when the remote JSON is available. It never blocks on external loading.
 
-## Что изменилось
-- 601 упражнение из бесплатной базы RepDB.
-- У каждого упражнения есть собственная иллюстрация; у большинства показаны начальная и конечная фазы движения.
-- Русские названия для популярных упражнений + расширенный перевод составных названий.
-- Английское оригинальное название остаётся мелким текстом для проверки и поиска.
-- Карточка упражнения показывает реальные инструкции из базы.
-- Сохранены шаблоны тренировок, повторный запуск, подходы/вес/повторы, история и календарь.
-- v4 отключает старый Service Worker и очищает старые PWA-кэши, чтобы исправить белый экран в Safari.
-
-## Источник иллюстраций
-Exercise data and illustrations by RepDB: https://repdb.co
-Free-tier license permits in-app personal/commercial use with visible attribution.
-
-## Обновление GitHub Pages
-Загрузите `index.html`, `manifest.webmanifest`, `sw.js`, `icon.svg` и `README.md` в корень репозитория и подтвердите замену файлов.
-После публикации откройте сайт с `?v=4`, например:
-`https://YOUR-NAME.github.io/rep-pwa/?v=4`
+Exercise data and illustrations: RepDB — https://repdb.co
