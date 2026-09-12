@@ -1,5 +1,19 @@
-# REP v6
+# REP v7.1
 
-Safari-safe build. The app renders immediately from an embedded core exercise list and then upgrades to the full RepDB catalog when the remote JSON is available. It never blocks on external loading.
+Стабильная PWA без service worker, чтобы Safari не получал устаревший кэш.
 
-Exercise data and illustrations: RepDB — https://repdb.co
+## Что работает
+- каталог упражнений из hasaneyldrm/exercises-dataset (1324 записи при успешной загрузке);
+- русские инструкции из исходного датасета;
+- поиск и фильтры;
+- карточки упражнений;
+- создание неограниченного количества шаблонов тренировок;
+- повторный запуск одной и той же тренировки;
+- вес, повторения и подходы;
+- история;
+- календарь с ручными цветными отметками;
+- кэш базы в IndexedDB после первой успешной загрузки.
+
+## Обновление на GitHub Pages
+Замените index.html, manifest.webmanifest и icon.svg в корне репозитория.
+После публикации откройте /?v=7.1.
